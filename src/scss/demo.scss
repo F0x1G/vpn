@@ -1,0 +1,246 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fafafa;
+}
+//&text-color:#000000;
+.f{
+  position: absolute;
+width: 611.24px;
+height: 382.44px;
+left: 745.76px;
+top: 179.11px;
+}
+.page-header {
+
+
+  &__hex{
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__title {
+    height: 140px;
+    width: 555px;
+    left: 150px;
+    top: 206.76611328125px;
+    border-radius: nullpx;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;   
+  }
+}
+.Container{
+
+max-width: 1320px;
+margin: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+.button
+{
+  display: inline-block;
+padding:10px 36px;
+font-weight: bold;
+line-height: 28px;
+border:1px solid;
+transition: all ease 2s;
+&--red
+{
+  background-color: #F53855;
+  color:#fff;
+}
+&--nerounded{
+  border-radius: 15px;
+  box-shadow: 0px 15px 0px rgba(180, 0, 0, 0.164);
+}
+&--rounded
+{
+  border-radius: 37px;
+}
+&:hover
+{
+  background-color: transparent;
+  color: #F53855;
+}
+&--transparent
+{
+  background-color: transparent;
+  border:1px solid $secondary-color-1;
+  color:$secondary-color-1;
+}
+}
+.cards{
+  margin-top: 80px;
+  display: flex; 
+  }
+  .card{
+    width: 500px;
+    margin-left: 50px;
+   box-shadow: 0px 5px 2px rgba(0 , 0 , 0 , .04);
+    position: relative;
+    top:20px;
+    display: flex;
+    padding: 35px 40px;
+    background-color: #FFFFFF;
+      img
+      {
+        margin-right: 25px;
+      }
+      &__title
+      {
+        font-weight: bold;
+        font-size: 24px;
+        color:$text-color;
+        &__into{
+        font-weight: 500px;
+        font-size: 14px;
+        line-height: 20px;
+        color:$second-text-color;}
+      }
+    
+  }
+.page-top{
+  display: flex;
+  padding: 30px 0 100px;
+  &__logo{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 80px;
+   // transition:opacity: .4s ease;
+    &:hover{
+      opacity:0.5 ;
+    }
+  }
+  &__subtitle {
+    height: 60px;
+width: 555px;
+left: 150px;
+top: 366.7659912109375px;
+border-radius: nullpx;
+
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+       
+  }
+  &__navigation{
+    ul{
+      display: flex;
+      li{
+        margin-right: 25px;
+        &:lastchild
+        {
+          margin-right: 0;
+        }
+  a{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color:#252B42;
+    transition: color .4s ease;
+    &:hover{
+      color: #252B42;
+    }
+  }
+      }
+    }
+  }
+}
+
+.Page-2{
+  display: flex;
+  margin-top: 160px;
+  &__heder{
+    width: 383.41px;
+    height: 100px;
+    left: 862.12px;
+    top: 1014.55px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+  }
+  &__pidhed{
+    width: 427.88px;
+    height: 60px;
+    left: 862.12px;
+    top: 1134.55px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  &__el{
+    margin-top: 30px;
+    display: flex;
+  }
+  &__text{
+    margin-left:10px ;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+
+.Page-3{
+  margin-top: 80px;
+  background-color: #FFFFFF;
+  &__cards{
+    display: flex;
+  }
+  &__card{
+    padding: 10px 150px 10px 100px;
+    &-t{
+      display: flex;
+    }
+  }
+  &__h3{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #0B132A;
+  }
+  &__p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+
+    text-align: center;
+
+    color: #4F5665;
+
+  }
+}
